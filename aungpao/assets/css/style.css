@@ -1,0 +1,62 @@
+body {
+    font-family: "poppins", Kanit, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.content_form {
+    height: 100vh;
+}
+
+.content_form h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.01);
+}
+
+.red-btn {
+    border-radius: 0;
+    background: #f2475f;
+    color: #fff;
+    transition: .2s;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.red-btn:hover {
+    background: #2b2b2b;
+    color: #fff;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.green-btn {
+    border-radius: 0;
+    background: #2ed573;
+    color: #fff;
+    transition: .2s;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.green-btn:hover {
+    background: #2b2b2b;
+    color: #fff;
+    border-color: transparent;
+    border-style: solid;
+}
